@@ -7,21 +7,34 @@ h1{
   font-size: 50px;
 }
 
+/* navigation */
 nav ul{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
   list-style-type: none;
   margin:0;
   padding:0;
   overflow: hidden;
   background-color: black;
+  border-width: 2px;
+  border-color: white;
 }
 nav li{
   float:left;
-  
+  border-width: 2px;
+  border-color: white;
 }
 nav a{
-  display:block;
+  display:inline-block;
   text-decoration: none;
   color:white;
   padding: 14px 16px;
   text-align: center;
+}
+nav a:hover{
+  background-color: grey;
+}
+.active{
+  background-color: red;
 }
