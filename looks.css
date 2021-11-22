@@ -7,6 +7,16 @@ h1{
   font-size: 50px;
 }
 
+top_img{
+  align-self: center;
+  width:50%
+}
+
+mid-img{
+  width: auto;
+  float:left
+}
+
 /* navigation */
 nav ul{
   position: -webkit-sticky;
@@ -19,6 +29,7 @@ nav ul{
   background-color: black;
   border-width: 2px;
   border-color: white;
+  margin-bottom: 50px;
 }
 nav li{
   float:left;
