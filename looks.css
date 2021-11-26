@@ -1,11 +1,17 @@
 body{
   font-family: sans-serif;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8pSUUBvJ79ivtcCHcxTXmLQg63cMNn2RQig&usqp=CAU);
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+  color: orange
 }
+
 
 h1{
   text-align: center;
   font-size: 50px;
+  margin-top: 25px;
 }
 
 top_img{
@@ -18,10 +24,8 @@ mid-img{
   float:left
 }
 
-main{
-  margin: 0 auto;
-  width: 800px;
-  position: relative;
+p{
+  font-size: 110%;
 }
 
 /* navigation */
