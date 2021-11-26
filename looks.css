@@ -1,6 +1,9 @@
 body{
   font-family: sans-serif;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8pSUUBvJ79ivtcCHcxTXmLQg63cMNn2RQig&usqp=CAU);
+  background-color: darkblue;
+  /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8pSUUBvJ79ivtcCHcxTXmLQg63cMNn2RQig&usqp=CAU); */
+  background-repeat: no-repeat;
+  background-position: bottom right;
   margin: 0 auto;
   width: 1000px;
   position: relative;
@@ -14,18 +17,22 @@ h1{
   margin-top: 25px;
 }
 
-top_img{
+#top_img{
   align-self: center;
   width:50%
 }
 
-mid-img{
+#mid-img{
   width: auto;
   float:left
 }
 
 p{
   font-size: 110%;
+}
+
+.speler a{
+  color:darkorange;
 }
 
 /* navigation */
