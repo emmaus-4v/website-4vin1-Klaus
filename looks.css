@@ -1,9 +1,8 @@
 body{
   font-family: sans-serif;
   background-color: rgb(8, 3, 80);
-  /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8pSUUBvJ79ivtcCHcxTXmLQg63cMNn2RQig&usqp=CAU); */
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  background-image: url("afbeeldingen/bg_auto_x2.jpg"); 
+  background-size: cover;
   margin: 0 auto;
   width: 1000px;
   position: relative;
