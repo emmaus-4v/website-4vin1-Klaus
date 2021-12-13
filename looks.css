@@ -1,7 +1,7 @@
 body{
   font-family: sans-serif;
-  background-color: rgb(8, 3, 80);
-  background-image: url("afbeeldingen/bg_auto_x2.jpg"); 
+  background-color: rgb(20, 15, 88);
+  /*background-image: url("afbeeldingen/bg_auto_x2.jpg"); */
   background-size: cover;
   margin: 0 auto;
   width: 1000px;
@@ -9,13 +9,14 @@ body{
   color:orange
 }
 
-.tekst{
-  width:800px
+#tekst{
+  width:1000px;
 }
 
 h1{
   text-align: center;
   font-size: 50px;
+  padding-top: 50px;
   margin-top: 25px;
   color:orange
 }
@@ -33,25 +34,29 @@ h1{
 
 p{
   font-size: 110%;
+  line-height: 130%;
 }
 
+.speler{
+  margin: 20px
+}
 .speler a{
   color:darkorange;
 }
 
 /* navigation */
-/*nav ul{
-  position: -webkit-sticky;
-  position: sticky;
+nav ul{
+  position: fixed;
   top: 0px;
   list-style-type: none;
   margin:0;
   padding:0;
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(30, 0, 161);
   border-width: 2px;
   border-color: white;
   margin-bottom: 50px;
+  width:1000px
 }
 nav li{
   float:left;
@@ -70,15 +75,16 @@ nav a:hover{
 }
 .active{
   background-color: red;
-}*/
+}
 
-nav ul {
+/*nav ul {
   float:left;
   list-style-type: none;
-  margin-block-end:0 auto;
+  margin-block-end:0px auto;
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
+  margin-right:10px
 }
 
 nav li a {
@@ -91,4 +97,4 @@ nav li a {
  nav li a:hover {
   background-color: #555;
   color: white;
-}
+}*/
